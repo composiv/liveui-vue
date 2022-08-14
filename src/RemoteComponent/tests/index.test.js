@@ -15,7 +15,7 @@
 */
 
 import RemoteComponent, { RemoteComponentWithUrl } from '../index';
-import { Registry, ViewBuilder } from '@composiv/liveui-core';
+import { Registry, ViewBuilder } from '@eclipse-muto/liveui-core';
 import 'whatwg-fetch';
 
 describe('Remote Component', () => {

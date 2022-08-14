@@ -20,7 +20,7 @@
  *
  */
 
-import { Registry, ViewBuilder } from '@composiv/liveui-core';
+import { Registry, ViewBuilder } from '@eclipse-muto/liveui-core';
 
 export function RemoteComponentWithUrl(url, onError) {
    

@@ -13,5 +13,5 @@ module.exports = {
   coverageReporters: ['json', 'text', 'lcov'],
   moduleDirectories: ['node_modules', 'src'],
   testRegex: 'tests/.*\\.test\\.js$',
-  transformIgnorePatterns: ['<rootDir>/node_modules/(?!@composiv/liveui-core)'],
+  transformIgnorePatterns: ['<rootDir>/node_modules/(?!@eclipse-muto/liveui-core)'],
 };

@@ -9,11 +9,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'umd'),
     filename,
-    library: '@composiv/liveui-vue',
+    library: '@eclipse-muto/liveui-vue',
     libraryTarget: 'umd',
   },
   externals: {
-    '@composiv/liveui-core': 'commonjs2 @composiv/liveui-core',
+    '@eclipse-muto/liveui-core': 'commonjs2 @eclipse-muto/liveui-core',
   },
   devtool: 'source-map', // Avoid inline-*** and eval-*** use in production as they can increase bundle size and reduce the overall performance.
   plugins: [
